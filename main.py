@@ -1,9 +1,8 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5.QtCore import  QTimer, QTime
-
 from PyQt5.uic import loadUi
-import time
+
 
 
 class VentanaPrincipal(QMainWindow):
