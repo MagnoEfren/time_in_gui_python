@@ -7,7 +7,6 @@ class VentanaPrincipal(QMainWindow):
     def __init__(self):
         super(VentanaPrincipal, self).__init__()
         loadUi('GUI4.ui', self)
-
         timer = QTimer(self)
         timer.timeout.connect(self.displayTime)
         timer.start(1000)
