@@ -16,7 +16,8 @@ class VentanaPrincipal(QMainWindow):
         displayText = currentTime.toString('hh:mm:ss')
         self.reloj.setText(displayText)
         self.lcdNumber.display(displayText)
-  
+        
+        
 app = QApplication(sys.argv)
 main = VentanaPrincipal()
 main.show()
